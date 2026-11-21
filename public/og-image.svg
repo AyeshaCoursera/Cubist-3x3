@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0C0F17"/>
+      <stop offset="55%" stop-color="#13192B"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="960" cy="315" r="240" fill="#4F46E5" fill-opacity="0.14"/>
+  <!-- Stylized 3x3 Cube Graphic -->
+  <g transform="translate(800, 155)">
+    <rect x="0" y="0" width="96" height="96" rx="14" fill="#EF4444"/>
+    <rect x="108" y="0" width="96" height="96" rx="14" fill="#F8FAFC"/>
+    <rect x="216" y="0" width="96" height="96" rx="14" fill="#3B82F6"/>
+    <rect x="0" y="108" width="96" height="96" rx="14" fill="#FB923C"/>
+    <rect x="108" y="108" width="96" height="96" rx="14" fill="#22C55E"/>
+    <rect x="216" y="108" width="96" height="96" rx="14" fill="#FACC15"/>
+    <rect x="0" y="216" width="96" height="96" rx="14" fill="#FACC15"/>
+    <rect x="108" y="216" width="96" height="96" rx="14" fill="#3B82F6"/>
+    <rect x="216" y="216" width="96" height="96" rx="14" fill="#F8FAFC"/>
+  </g>
+  <rect x="80" y="120" width="230" height="36" rx="18" fill="#4F46E5" fill-opacity="0.25" stroke="#6366F1" stroke-opacity="0.5"/>
+  <text x="195" y="143" text-anchor="middle" fill="#A5B4FC" font-family="monospace" font-size="16" font-weight="700">CUBIST 3x3 SOLVER</text>
+  <text x="80" y="240" fill="#FFFFFF" font-family="sans-serif" font-size="56" font-weight="800">Interactive 3D</text>
+  <text x="80" y="308" fill="#FFFFFF" font-family="sans-serif" font-size="56" font-weight="800">Rubik's Cube Solver</text>
+  <text x="80" y="370" fill="#CBD5E1" font-family="sans-serif" font-size="24">Paint your cube, follow step-by-step CFOP</text>
+  <text x="80" y="406" fill="#CBD5E1" font-family="sans-serif" font-size="24">algorithms, and explore 43 quintillion states.</text>
+  <text x="80" y="510" fill="#34D399" font-family="monospace" font-size="20" font-weight="700">43,252,003,274,489,856,000 Possibilities • God's Number: 20</text>
+  <text x="80" y="555" fill="#94A3B8" font-family="sans-serif" font-size="18">Designed by Ayesha Raziq</text>
+</svg>

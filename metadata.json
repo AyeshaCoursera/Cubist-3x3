@@ -1,0 +1,8 @@
+{
+  "name": "Cubist: Interactive 3D Rubik's Cube & Algorithm Explorer",
+  "description": "Interactive tool-based blog and 3D Rubik's Cube solver exploring 43 quintillion possibilities, step-by-step layer algorithms, and speedcube mechanics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

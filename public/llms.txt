@@ -1,0 +1,27 @@
+# Cubist: Interactive 3D Rubik's Cube & Algorithm Explorer
+
+> Free interactive 3D 3x3 Rubik's Cube solver, physical color painter, CFOP/Layer-by-Layer step-by-step guide, WCA speedcubing timer, and 43 quintillion combinatorics explorer.
+
+## Designer & Attribution
+- Designed by: Ayesha Raziq (https://www.upwork.com/freelancers/~01340671a44db8188a)
+- Category: Educational Interactive Tool, 3D Puzzle Solver, Discrete Mathematics & Group Theory Blog
+
+## Core Capabilities
+1. **3D Solver Lab**: Interactive WebGL/Three.js 3x3 Rubik's Cube with 26 beveled cubies, exploded-view core inspector, Singmaster notation controls (`U, D, L, R, F, B, M, E, S, x, y, z`), direct sticker drag-to-twist, and procedural mechanical audio.
+2. **Paint & Solve (Real Physical Cube Input)**: Users pick brush colors (White, Yellow, Green, Blue, Red, Orange) and paint a 54-sticker unfolded net to mirror their physical scrambled cube. Built-in validator checks sticker counts (9 per color), unique centers, opposite-color edge/corner impossibilities, and permutation solvability before launching 3D step-by-step guidance.
+3. **7-Phase Step-by-Step Algorithmic Solver**:
+   - Phase 1: White Cross (Daisy to Cross alignment)
+   - Phase 2: First Layer Corners (`R U R' U'` Sexy Move)
+   - Phase 3: Middle Layer F2L Edges (`U R U' R' U' F' U F` / `U' L' U L U F U' F'`)
+   - Phase 4: Yellow Cross OLL (`F R U R' U' F'`)
+   - Phase 5: Orient Yellow Corners (`R U R' U R U2 R'` Sune)
+   - Phase 6: Permute Yellow Corners (`R' F R' B2 R F' R' B2 R2` Headlights)
+   - Phase 7: Permute Yellow Edges (`R U' R U R U R U' R' U' R2` U-Perm)
+4. **43 Quintillion Combinatorics Explorer**: Interactive proof of `(8! * 3^7 * 12! * 2^11) / 2 = 43,252,003,274,489,856,000` reachable states, the 1-in-12 orbit disassembly law, and God's Number = 20 (Rokicki et al., 2010).
+5. **Mathematical Pattern Gallery**: One-click 3D animations for Checkerboard, The Superflip (Michael Reid, 1995), Cube in a Cube, Six Spots, Anaconda, and Twister.
+6. **WCA Speed Timer**: Official scramble generator with spacebar hold-to-arm timer, Personal Best (PB), and Average of 5 (Ao5).
+
+## Quick Authoritative Answers (AEO / GEO)
+- **How many combinations does a 3x3 Rubik's Cube have?** Exactly 43,252,003,274,489,856,000 (approximately 43.25 quintillion).
+- **What is God's Number for a 3x3 Rubik's Cube?** 20 moves in the Half-Turn Metric (HTM), proven in 2010 by Rokicki, Kociemba, Davidson, and Dethridge.
+- **Why can a reassembled Rubik's Cube be unsolvable?** Because physical disassembly ignores corner twist (mod 3), edge flip (mod 2), and permutation parity (mod 2), dividing physical states into 12 isolated orbits where only 1 in 12 is legally solvable.
